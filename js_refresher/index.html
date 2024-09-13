@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        "use strict"; //less error
+        let a= 34;
+        console.log(a);
+
+        function hello(){
+            console.log("hello gaurav")
+        }
+        let d = {
+         r: 12,
+         b: 13,
+
+         func :function myfunc(number){
+            console.log("the number is" +number);
+         }
+        }
+        let myfuncnew = (number)=>{
+            console.log("this is  number" +this)
+        }
+        
+        document.addEventListener("click" , function click(){
+        console.log("clicked");
+        //alert("hello")
+         
+       
+        let conf = confirm("are you sure")
+        console.log(conf)
+         
+        })
+        let arr = [23,34,56]
+myfuncnew(13);
+
+
+setTimeout(()=> {
+console.log("aaaaaa")
+    }, 3000);
+
+console.log("last one")
+    </script>
+ </head>
+ <body>
+    I Am learning js
+ </body>
+ </html> 
